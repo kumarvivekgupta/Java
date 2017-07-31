@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Menu">
+  <grid id="27dc6" binding="jpanel" layout-manager="GridLayoutManager" row-count="9" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="16" y="80" width="1186" height="687"/>
+    </constraints>
+    <properties>
+      <background color="-5505107"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="2b304" class="javax.swing.JCheckBox" binding="strawberry">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5505107"/>
+          <foreground color="-55261"/>
+          <text value="Strawberry shake(Rs. 50)"/>
+        </properties>
+      </component>
+      <component id="8d9b4" class="javax.swing.JCheckBox" binding="mango">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5505107"/>
+          <foreground color="-55261"/>
+          <text value="Mango shake(Rs.40)"/>
+        </properties>
+      </component>
+      <component id="abd43" class="javax.swing.JCheckBox" binding="vanilla">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5505107"/>
+          <foreground color="-55261"/>
+          <text value="Vanilla shake(Rs.30)"/>
+        </properties>
+      </component>
+      <component id="22ca7" class="javax.swing.JCheckBox" binding="oreo">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5505107"/>
+          <foreground color="-55261"/>
+          <text value="Oreo shake(Rs.40)"/>
+        </properties>
+      </component>
+      <component id="c06db" class="javax.swing.JCheckBox" binding="chocolate">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5505107"/>
+          <foreground color="-55261"/>
+          <text value="Choco shake(Rs. 60)"/>
+        </properties>
+      </component>
+      <component id="3f479" class="javax.swing.JCheckBox" binding="apple">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5505107"/>
+          <foreground color="-55261"/>
+          <text value="Apple drink(Rs.70)"/>
+        </properties>
+      </component>
+      <component id="d03b6" class="javax.swing.JCheckBox" binding="litchi">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5505107"/>
+          <foreground color="-55261"/>
+          <text value="Litchi drink(Rs. 45)"/>
+        </properties>
+      </component>
+      <component id="a397c" class="javax.swing.JCheckBox" binding="tikka">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5505107"/>
+          <foreground color="-9695363"/>
+          <text value="Paneer Tikka(Rs. 120)"/>
+        </properties>
+      </component>
+      <component id="aaa10" class="javax.swing.JCheckBox" binding="momos">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5505107"/>
+          <foreground color="-9695363"/>
+          <text value="Momos(Rs. 30)"/>
+        </properties>
+      </component>
+      <component id="f1c8d" class="javax.swing.JCheckBox" binding="chilli">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5505107"/>
+          <foreground color="-9695363"/>
+          <text value="Chilli Potato(Rs.50)"/>
+        </properties>
+      </component>
+      <component id="c62aa" class="javax.swing.JCheckBox" binding="pasta">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5505107"/>
+          <foreground color="-9695363"/>
+          <text value="Pasta(Rs.40)"/>
+        </properties>
+      </component>
+      <component id="8fcec" class="javax.swing.JCheckBox" binding="sandwich">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5505107"/>
+          <foreground color="-9695363"/>
+          <text value="Sandwich(Rs.20)"/>
+        </properties>
+      </component>
+      <component id="9f82d" class="javax.swing.JCheckBox" binding="maggi">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5505107"/>
+          <foreground color="-9695363"/>
+          <text value="Maggi(Rs.40)"/>
+        </properties>
+      </component>
+      <component id="b3009" class="javax.swing.JCheckBox" binding="spring">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5505107"/>
+          <foreground color="-9695363"/>
+          <text value="Spring roll(Rs.45)"/>
+        </properties>
+      </component>
+      <component id="ba1d8" class="javax.swing.JCheckBox" binding="kadhai">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5505107"/>
+          <foreground color="-3620312"/>
+          <text value="Kadhai Paneer(Rs.180)"/>
+        </properties>
+      </component>
+      <component id="2b5a2" class="javax.swing.JCheckBox" binding="palak">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5505107"/>
+          <foreground color="-3620312"/>
+          <text value="Palak Paneer(Rs.150)"/>
+        </properties>
+      </component>
+      <component id="f8197" class="javax.swing.JCheckBox" binding="matar">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5505107"/>
+          <foreground color="-3620312"/>
+          <text value="Matar Paneer(Rs.120)"/>
+        </properties>
+      </component>
+      <component id="de23a" class="javax.swing.JCheckBox" binding="handi">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5505107"/>
+          <foreground color="-3620312"/>
+          <text value="Handi Paneer(Rs.190)"/>
+        </properties>
+      </component>
+      <component id="9fdf6" class="javax.swing.JCheckBox" binding="mix">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5505107"/>
+          <foreground color="-3620312"/>
+          <text value="Mix Veg(Rs.100)"/>
+        </properties>
+      </component>
+      <component id="6c8e8" class="javax.swing.JCheckBox" binding="kofta">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5505107"/>
+          <foreground color="-3620312"/>
+          <text value="Veg Kofta(Rs.130)"/>
+        </properties>
+      </component>
+      <component id="9034e" class="javax.swing.JCheckBox" binding="allo">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5505107"/>
+          <foreground color="-3620312"/>
+          <text value="Jeera allo(Rs.80)"/>
+        </properties>
+      </component>
+      <component id="b7b98" class="javax.swing.JCheckBox" binding="shahi">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5505107"/>
+          <foreground color="-3620312"/>
+          <text value="Shahi Paneer(Rs.180)"/>
+        </properties>
+      </component>
+      <component id="c020f" class="javax.swing.JCheckBox" binding="butter">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5505107"/>
+          <foreground color="-3620312"/>
+          <text value="Paneer Buttermasala(Rs.200)"/>
+        </properties>
+      </component>
+      <component id="3420a" class="javax.swing.JCheckBox" binding="mushroom">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5505107"/>
+          <foreground color="-3620312"/>
+          <text value="Mushroom(Rs.210)"/>
+        </properties>
+      </component>
+      <component id="fcae0" class="javax.swing.JCheckBox" binding="tava">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5505107"/>
+          <foreground color="-3620312"/>
+          <text value="Tava Paneer(Rs.220)"/>
+        </properties>
+      </component>
+      <component id="30bb2" class="javax.swing.JCheckBox" binding="chole">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5505107"/>
+          <foreground color="-3620312"/>
+          <text value="Chole(Rs.100)"/>
+        </properties>
+      </component>
+      <component id="1a6d2" class="javax.swing.JCheckBox" binding="daal">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5505107"/>
+          <foreground color="-3620312"/>
+          <text value="Daal fry(Rs.120)"/>
+        </properties>
+      </component>
+      <component id="87de2" class="javax.swing.JCheckBox" binding="makhani">
+        <constraints>
+          <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5505107"/>
+          <foreground color="-3620312"/>
+          <text value="Daal Makhani(Rs.180)"/>
+        </properties>
+      </component>
+      <component id="b00f" class="javax.swing.JCheckBox" binding="plain">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5505107"/>
+          <foreground color="-14635996"/>
+          <text value="Plain Rice(Rs.100)"/>
+        </properties>
+      </component>
+      <component id="62c00" class="javax.swing.JCheckBox" binding="jeera">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5505107"/>
+          <foreground color="-14635996"/>
+          <text value="Jeera Rice(Rs.120)"/>
+        </properties>
+      </component>
+      <component id="e034c" class="javax.swing.JCheckBox" binding="plainR">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5505107"/>
+          <foreground color="-14635996"/>
+          <text value="Plain roti(Rs.20/5)"/>
+        </properties>
+      </component>
+      <component id="fb230" class="javax.swing.JCheckBox" binding="tandoor">
+        <constraints>
+          <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5505107"/>
+          <foreground color="-14635996"/>
+          <text value="Tandoor Roti(Rs.40/5)"/>
+        </properties>
+      </component>
+      <component id="80679" class="javax.swing.JCheckBox" binding="butterR">
+        <constraints>
+          <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5505107"/>
+          <foreground color="-14635996"/>
+          <text value="Butter Roti(Rs.30/5)"/>
+        </properties>
+      </component>
+      <component id="2c156" class="javax.swing.JCheckBox" binding="garlic">
+        <constraints>
+          <grid row="6" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5505107"/>
+          <foreground color="-14635996"/>
+          <text value="Garlic naan(Rs.250/5)"/>
+        </properties>
+      </component>
+      <component id="c18a1" class="javax.swing.JCheckBox" binding="butternaan">
+        <constraints>
+          <grid row="7" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5505107"/>
+          <foreground color="-14635996"/>
+          <text value="Butter naan(Rs.200/5)"/>
+        </properties>
+      </component>
+      <component id="822cc" class="javax.swing.JCheckBox" binding="gulab">
+        <constraints>
+          <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5505107"/>
+          <foreground color="-62960"/>
+          <text value="Gulab Jamun(Rs.20/2)"/>
+        </properties>
+      </component>
+      <component id="4e4d2" class="javax.swing.JCheckBox" binding="kheer">
+        <constraints>
+          <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5505107"/>
+          <foreground color="-62960"/>
+          <text value="Kheer(Rs.50)"/>
+        </properties>
+      </component>
+      <component id="b4e33" class="javax.swing.JCheckBox" binding="jalebi">
+        <constraints>
+          <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5505107"/>
+          <foreground color="-62960"/>
+          <text value="Jalebi(Rs.100/1kg)"/>
+        </properties>
+      </component>
+      <component id="b0781" class="javax.swing.JCheckBox" binding="vanillaI">
+        <constraints>
+          <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5505107"/>
+          <foreground color="-62960"/>
+          <text value="Vanilla(Rs.30)"/>
+        </properties>
+      </component>
+      <component id="3b604" class="javax.swing.JCheckBox" binding="butterI">
+        <constraints>
+          <grid row="5" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5505107"/>
+          <foreground color="-62960"/>
+          <text value="Butterscotch(Rs.70)"/>
+        </properties>
+      </component>
+      <component id="3da97" class="javax.swing.JCheckBox" binding="chocolateI">
+        <constraints>
+          <grid row="6" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5505107"/>
+          <foreground color="-62960"/>
+          <text value="Chocolate(Rs.50)"/>
+        </properties>
+      </component>
+      <component id="54d31" class="javax.swing.JCheckBox" binding="sunday">
+        <constraints>
+          <grid row="7" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5505107"/>
+          <foreground color="-62960"/>
+          <text value="Sundae(Rs.60)"/>
+        </properties>
+      </component>
+      <component id="3228a" class="javax.swing.JButton" binding="order">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15791233"/>
+          <foreground color="-1"/>
+          <text value="ORDER"/>
+        </properties>
+      </component>
+      <component id="d310c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Segoe Print" size="36" style="1"/>
+          <foreground color="-1570479"/>
+          <text value="MENU"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
